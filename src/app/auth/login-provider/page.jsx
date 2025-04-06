@@ -89,7 +89,7 @@ export default function ProviderLoginPage() {
 
         <p className="text-sm text-gray-600 text-center mt-4">
           Not a provider?{' '}
-          <a href="/signup" className="text-blue-600 hover:underline">
+          <a href="/auth/signup-provider/" className="text-blue-600 hover:underline">
             Register here
           </a>
         </p>

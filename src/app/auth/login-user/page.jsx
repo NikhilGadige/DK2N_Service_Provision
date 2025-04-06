@@ -31,7 +31,7 @@ export default function LoginPage() {
       }
 
       alert('Login successful!');
-      router.push('/'); // or redirect to a dashboard
+      router.push('/user-dashboard'); // or redirect to a dashboard
     } catch (error) {
       setErrorMsg('Something went wrong. Try again.');
       setLoading(false);
@@ -83,7 +83,7 @@ export default function LoginPage() {
 
         <p className="mt-4 text-center text-sm text-gray-600">
           Don’t have an account?{' '}
-          <a href="/register" className="text-purple-600 hover:underline">
+          <a href="/auth/signup-user/" className="text-purple-600 hover:underline">
             Register here
           </a>
         </p>

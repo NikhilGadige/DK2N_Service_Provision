@@ -93,7 +93,7 @@ export default function ProviderSignupPage() {
 
         <p className="text-sm text-gray-600 text-center mt-4">
           Already have an account?{' '}
-          <a href="/provider-login" className="text-pink-600 hover:underline">
+          <a href="/auth/login-provider/" className="text-pink-600 hover:underline">
             Login here
           </a>
         </p>
